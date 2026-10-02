@@ -12,7 +12,7 @@ class Ship:
         self.image = pygame.image.load('images/spaceship.png').convert_alpha()
 
         #resize the ship
-        self.image = pygame.transform.scale(self.image, (600, 500))
+        self.image = pygame.transform.scale(self.image, (500, 400))
 
         #get the ship's rectangle
         self.rect = self.image.get_rect()
